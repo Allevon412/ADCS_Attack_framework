@@ -7,7 +7,7 @@ It works by modifying many impacket modules to perform the following tasks:
 1) Set up an SMB Relay server (Modified NTLMRelayX)
 2) Perform reconnaissance on certificate authorities & certificate templates.
 3) Abuse the printer bug to coerce the DC into authenticating to our smbserver -> relay it to the ADCS Web Enrollment endpoint & grab a bas64 version of the DC's certificate.
-4) It's supposed to also identify any certificate templates where we can submit our own subject (I.E. Domain Admin or other user) and apply for that certificate using a target subject. However, my setup couldn't get this to work. Abondoning the work here.
+4) It's supposed to also identify any certificate templates where we can submit our own subject (I.E. Domain Admin or other user) and apply for that certificate using a target subject. However, my setup couldn't get this to work. Abondoning the work here (wanted the project to be a weekend thing, turning out to be maybe month+ worth of work).
 
 Resources:
 https://posts.specterops.io/certified-pre-owned-d95910965cd2
